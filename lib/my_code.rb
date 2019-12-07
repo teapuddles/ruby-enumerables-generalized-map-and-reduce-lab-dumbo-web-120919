@@ -9,5 +9,5 @@ def map(source)
 end
 
 
-def reduce(source)
+def reduce(source, sv = nil)
 end
