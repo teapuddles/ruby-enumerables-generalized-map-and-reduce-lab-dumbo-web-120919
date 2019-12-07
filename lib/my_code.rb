@@ -9,5 +9,11 @@ def map(source)
 end
 
 
-def reduce(source, sv = nil)
+def reduce(source, sv=nil)
+  if sv
+    num1 = sv
+    i = 0 
+  else
+    
+  
 end
