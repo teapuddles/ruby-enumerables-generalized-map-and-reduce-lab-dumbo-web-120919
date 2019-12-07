@@ -10,4 +10,4 @@ end
 
 
 def reduce(source)
-  
+end
