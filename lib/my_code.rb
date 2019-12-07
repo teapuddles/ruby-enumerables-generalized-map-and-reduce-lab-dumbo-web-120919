@@ -8,5 +8,4 @@ def map(source)
   return new
 end
 
-map(source) do |neg|
   
