@@ -11,10 +11,13 @@ end
 
 def reduce(source, sv=nil)
   if sv
-    num1 = sv
+    sum = sv
     i = 0 
   else
-    num1 = source[i]
+    sum = source[i]
     i = 1
+  end
+  while i < source.length do 
+    yield(sum, source[i])
   
 end
