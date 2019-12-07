@@ -18,7 +18,7 @@ def reduce(source, sv=nil)
     i = 1
   end
   while i < source.length do 
-    yield(sum, source[i])
+   sum = yield(sum, source[i])
     i += 1 
   end
   return sum
